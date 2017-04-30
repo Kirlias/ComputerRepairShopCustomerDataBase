@@ -9,9 +9,17 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="8*"/>
-            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="450"/>
         </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="750*"/>
+            </Grid.RowDefinitions>
+            <ListView x:Name="ListOfcustomers"/>
 
+        </Grid>
     </Grid>
 </Page>
